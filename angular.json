@@ -30,6 +30,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -68,7 +69,8 @@
               "browserTarget": "beekeeping:build:production"
             },
             "development": {
-              "browserTarget": "beekeeping:build:development"
+              "browserTarget": "beekeeping:build:development",
+              "port": 3030
             }
           },
           "defaultConfiguration": "development"
@@ -93,6 +95,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
             "scripts": []
