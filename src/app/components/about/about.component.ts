@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-abour',
+  selector: 'app-about',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './abour.component.html',
-  styleUrls: ['./abour.component.scss']
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.scss']
 })
-export class AbourComponent {
+export class AboutComponent {
 
 }

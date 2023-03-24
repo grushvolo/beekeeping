@@ -1,0 +1,30 @@
+.nav {
+  // display: block;
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 10px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.active {
+  color: aqua;
+}
