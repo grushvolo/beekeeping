@@ -1,1 +1,3 @@
-<p>families works!</p>
+<mat-card *ngFor="let family of families">
+  <app-family-item [family]="family"></app-family-item>
+</mat-card>

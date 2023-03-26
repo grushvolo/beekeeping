@@ -5,7 +5,10 @@
         <a routerLink="/about" routerLinkActive="active" class="nav-link">About</a>
       </li>
       <li class="nav-item">
-        <a routerLink="/families" routerLinkActive="active" class="nav-link">Families</a>
+        <button class="btn-link" [matMenuTriggerFor]="families" routerLink="/families" routerLinkActive="active" class="nav-link">Families</button>
+        <mat-menu #families="matMenu">
+          <a routerLink="/addfamily" mat-menu-item>Add family</a>
+        </mat-menu>
       </li>
       <li class="nav-item">
         <a routerLink="/info" routerLinkActive="active" class="nav-link">Information</a>
