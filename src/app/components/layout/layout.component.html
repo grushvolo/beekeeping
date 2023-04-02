@@ -2,16 +2,17 @@
   <nav class="nav">
     <ul class="nav-items">
       <li class="nav-item">
-        <a routerLink="/about" routerLinkActive="active" class="nav-link">About</a>
+        <a routerLink="/about" routerLinkActive="active" class="font-link">About</a>
       </li>
       <li class="nav-item">
-        <button class="btn-link" [matMenuTriggerFor]="families" routerLink="/families" routerLinkActive="active" class="nav-link">Families</button>
+        <button class="btn-link font-link" [matMenuTriggerFor]="families">Families</button>
         <mat-menu #families="matMenu">
-          <a routerLink="/addfamily" mat-menu-item>Add family</a>
+          
+          <a routerLink="/addfamily" routerLinkActive="active" class="font-link">Add family</a>
         </mat-menu>
       </li>
       <li class="nav-item">
-        <a routerLink="/info" routerLinkActive="active" class="nav-link">Information</a>
+        <a routerLink="/info" routerLinkActive="active" class="font-link">Information</a>
       </li>
     </ul>
   </nav>
